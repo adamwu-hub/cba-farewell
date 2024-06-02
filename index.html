@@ -16,26 +16,92 @@
   
     <!-- Logo Image or Text goes in here -->
     <h2 class="main-logo">
-      <img src="img/star-wars-intro.png">
+      <img src="img/star-wars-intro-aw.png">
     </h2>
   
     <!-- All Scrolling Content Goes in here -->
     <div class="main-content">
   
       <div class="title-content">
-        <p class="content-header">EPISODES IV-VI<br/>A Movie Marathon</p>
-  
-        <br>
+        <p class="content-body">
+          My dear friends and team mates, as I prepare to embark on a new journey, I find myself reflecting on the incredible adventure we've shared over the past 12 years at CBA. It feels like a recap of an unforgettable TV show:
+        </p>
+
+        <p class="content-header">Episode I<br/>The War of Mobile (2012-2013)</p>
   
         <p class="content-body">
-          After years of galactic silence, civilization is on the brink of a new Star Wars release. Now, with the Force preparing to awaken, the people of Earth seek solace in films of old. With nowhere to turn, they gather in great numbers and watch the original trilogy without rest. Three films. 6 hours. 24 minutes. Popcorn. Slushies. Total elation.
+          In the era of mobile apps, I reverse-engineered the existing Kaching web app to document the API interfaces and sequence flows, so I can effectively guide our iOS and Android engineers in building the first native CommBank mobile app within 6 months.
         </p>
   
-        <!-- button or link or whatever -->
-        <a href="./StarScroll.zip" class="space-button">Download The Code Now!</a>
+        <p class="content-header">Episode II<br/>The Rise of Helix (2013-2015)</p>
+  
+        <p class="content-body">
+          If you don't know what Helix is, consider yourself lucky. During this time, we built numerous Helix apps and I created the well-known AUTHHACK app to help engineers test Helix apps easily. One of the craziest endeavors was working with David Hua to build the cards view for the tablet CommBank app in 2 sprints.
+        </p>
 
+        <p class="content-header">Episode III<br/>The Microservice Crusade (2015-2017)</p>
+  
+        <p class="content-body">
+          We built microservices to decommission the monolithic SocialBanking API, covering accounts, cards, payments, transaction history, and more. This period taught me the importance of designing resilient into microservice system.
+        </p>
+
+        <p class="content-header">Episode IV<br/>The Age of Containers (2017-2020)</p>
+  
+        <p class="content-body">
+          Collaborating with AppInfra on K8s, we containerized .NET Framework APIs using Windows base images. We also designed and implemented a codified CD pipeline supporting blue/green releases in production.
+        </p>
+
+        <p class="content-header">Episode V<br/>The Azure Rebellion (2020)</p>
+  
+        <p class="content-body">
+          We designed the new overnight batch payment system, NB02, using Azure Storage Queue and Azure Function, replacing the legacy Java system.
+        </p>
+
+        <p class="content-header">Episode VI<br/>The Kafka Chronicles (2021-2022)</p>
+
+        <p class="content-body">
+          We designed and implemented an event-driven home loan application submission and lodgement system using Kafka.
+        </p>
+
+        <p class="content-header">Episode VII<br/>The AWS Ascension (2022-2024)</p>
+
+        <p class="content-body">
+          Our HomeBuying squads worked hand in hand to release projects to AWS cloud through DHP. I implemented Lambda, ALB/NLB sticky session and DMS on DHP, and established best practices for hosting .Net Core APIs on Lambda.
+        </p>
+
+        <p class="content-header">....</p>
+
+        <p class="content-body">
+          It has been an honor and a privilege to work with all of you, my friends and team mates. I will miss it dearly. Now, I am ready to depart the fleet and start another adventure. Wish me luck, and....
+        </p>
+
+        <p class="content-header">May the Coding Skills be with you!</p>
       </div>
     </div>
+
+    <div class="destroyer-a">
+      <img src="img/destroyer.png" />
+    </div>
+
+    <div class="destroyer">
+      <img src="img/destroyer.png" />
+    </div>
+
+    <div class="tie">
+      <img src="img/tie.png" />
+    </div>
+
+    <div class="end">
+      <a href="javascript:window.location.reload();" class="space-button">Replay</a>
+      <a href="https://www.linkedin.com/in/adamyuewu" class="space-button" target="_blank">Linked<img src="img/linkedin.png"> with me!</a>
+    </div>
   </div>
+
+  <script>
+    window.setTimeout(() =>
+    {
+      document.getElementsByClassName("end")[0].style.display = "block";
+    }, 132000);
+  </script>
 </body>
 </html>
