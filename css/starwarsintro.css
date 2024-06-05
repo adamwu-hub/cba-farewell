@@ -58,7 +58,7 @@ body, html{
     overflow: hidden;
     transform-origin: 50% 100%;
     transform: perspective(350px) rotateX(25deg);
-    animation: main-content 6s ease-out 105s forwards;
+    animation: main-content 4s ease-out 105s forwards;
   }
   
   .star-wars-intro .main-content:after {
@@ -239,7 +239,7 @@ body, html{
     position: absolute;
     top: 14940px;
     left: 16700px;
-    animation: move-a 0.1s linear 111s forwards, move-b 30s linear 111.1s forwards;
+    animation: move-a 0.1s linear 109s forwards, move-b 30s linear 109.1s forwards;
   }
 
   .destroyer-a img {
@@ -250,7 +250,7 @@ body, html{
     position: absolute;
     top: 100%;
     left: 50%;
-    animation: move 20s linear 106s forwards;
+    animation: move 20s linear 104s forwards;
   }
 
   .destroyer img {
@@ -263,7 +263,7 @@ body, html{
     position: absolute;
     top: 100px;
     left: -20px;
-    animation: tie-move 5s linear 126s forwards;
+    animation: tie-move 5s linear 123s forwards;
   }
 
   .tie img {
